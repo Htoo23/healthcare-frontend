@@ -1,0 +1,12 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: 30 64 175; /* tailwind blue-800 */
+}
+
+.card {
+  @apply rounded-2xl bg-white shadow p-4;
+}
